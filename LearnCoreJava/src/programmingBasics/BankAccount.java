@@ -10,13 +10,10 @@ public class BankAccount {
 		System.out.println("Account Holder Name is "+ accountHolderName);
 		return accountBalance;
 	}
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		BankAccount account = new BankAccount();
 		 int totalAmount = account.getAccountDetails();
 		 System.out.println("Total Balance is "+totalAmount);
-
 	}
-
 }
